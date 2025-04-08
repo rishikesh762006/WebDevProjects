@@ -1,0 +1,22 @@
+body {
+    padding: 80px;
+    background-color:azure;
+    justify-content: center;
+    padding-block-start: 200px;
+}
+
+li {
+    display: flex;
+    justify-content: center;
+}
+ 
+div {
+    height: 80px;
+    width: 80px;
+    border-radius: 10px;
+    box-shadow: 5px;
+    background-color: bisque;
+    display: inline;
+    margin: 5px;
+    padding: 10px;
+}
