@@ -1,8 +1,14 @@
+header {
+    padding: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
 body {
-    padding: 80px;
+    padding: 40px;
     background-color:azure;
     justify-content: center;
-    padding-block-start: 200px;
 }
 
 li {
@@ -10,13 +16,18 @@ li {
     justify-content: center;
 }
  
-div {
-    height: 80px;
-    width: 80px;
-    border-radius: 10px;
-    box-shadow: 5px;
+button {
+    height: 120px;
+    width: 120px;
+    border: 2px solid #b5abab;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     background-color: bisque;
     display: inline;
     margin: 5px;
     padding: 10px;
+}
+
+h2 {
+    text-align: center;
 }

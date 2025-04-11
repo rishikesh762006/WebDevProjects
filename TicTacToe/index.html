@@ -2,25 +2,30 @@
 <html lang = "en">
     <head>
         <meta charset="utf-8">
-        <meta name="view-port" content="width=device-width, initial-scale=1.0">
+        <meta name="view-port" content="width=device-width initial-scale=1.0">
         <title>Tic Tac Toe</title>
         <link rel="stylesheet" href="style.css">
     </head>
+    <header>
+        <h1>Tic Tac Toe</h1>
+    </header>
     <body>
         <li>
-            <div class="1a"></div>
-            <div class="1b"></div>
-            <div class="1c"></div>
+            <button id="1" value="0" onclick = store(this.id)></button>
+            <button id="2" value="0" onclick = store(this.id)></button>
+            <button id="3" value="0" onclick = store(this.id)></button>
         </li>
         <li>
-            <div class="2a"></div>
-            <div class="2b"></div>
-            <div class="2c"></div>
+            <button id="4" value="0" onclick = store(this.id)></button>
+            <button id="5" value="0" onclick = store(this.id)></button>
+            <button id="6" value="0" onclick = store(this.id)></button>
         </li>
         <li>
-            <div class="3a"></div>
-            <div class="3b"></div>
-            <div class="3c"></div>
+            <button id="7" value="0" onclick = store(this.id)></button>
+            <button id="8" value="0" onclick = store(this.id)></button>
+            <button id="9" value="0" onclick = store(this.id)></button>
         </li>
+        <h2 id="result"></h2>
+        <script src="script.js"></script>
     </body>
 </html>
