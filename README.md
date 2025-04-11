@@ -21,8 +21,8 @@ Every project is simple, standalone, and easy to understand — perfect for begi
 
 | Project Name            | Description                                 |
 |-------------------------|---------------------------------------------|
-| Daily Task Tracker      | A simple task management app using localStorage |
 | Quote Generator         | Displays random inspirational quotes on click |
+| Tic Tac Toe             | Classical Tic Tac Toe game with simple features and UI |
 | (more coming soon...)   | Stay tuned as I keep uploading more ✨      |
 
 ---
