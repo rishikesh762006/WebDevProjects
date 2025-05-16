@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUET Practice Test</title>
+    <link rel="stylesheet" href="style.css"> <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"> </head>
+<body>
+    <div class="test-container-fullscreen" id="test-container">
+        <header class="test-page-header main-header">
+             <div class="header-left">
+                 <span class="logo-text">CUET Mock Test</span> <span class="test-name-header">CUET General Awareness (Ancient Indian History - I)</span>
+             </div>
+             <div class="header-center">
+                 <span class="timer-section">Time Left: <span id="time">--:--</span></span>
+             </div>
+             <div class="header-right">
+                <button id="fullscreen-btn" class="header-btn"><i class="fas fa-expand"></i> Full Screen</button>
+                <button id="pause-btn" class="header-btn"><i class="fas fa-pause"></i> Pause</button> </div>
+        </header>
+
+        <div class="tabs-section">
+            <span>SECTIONS:</span>
+            <span class="tab active">Test</span>
+        </div>
+
+        <div class="test-body main-test-body">
+            <main class="question-area">
+                <div class="question-details-bar">
+                    <span class="q-num-display">Question No. <span id="q-num">1</span></span>
+                    <span class="q-marks">Marks: <span class="positive-mark">+5</span> <span class="negative-mark">-1</span></span>
+                    <a href="#" class="report-link"><i class="fas fa-flag"></i> Report</a>
+                </div>
+
+                <div class="question-content-wrapper">
+                    <p id="q-text" class="question-text">Loading question...</p>
+
+                    <form id="options-form" class="options">
+                         <label class="option-label"><input type="radio" name="option" value="a"> <span class="option-text" id="opt-a">Option A</span></label>
+                         <label class="option-label"><input type="radio" name="option" value="b"> <span class="option-text" id="opt-b">Option B</span></label>
+                         <label class="option-label"><input type="radio" name="option" value="c"> <span class="option-text" id="opt-c">Option C</span></label>
+                         <label class="option-label"><input type="radio" name="option" value="d"> <span class="option-text" id="opt-d">Option D</span></label>
+                    </form>
+                </div>
+
+                <nav class="question-nav bottom-nav">
+                    <button id="mark-btn" class="btn btn-secondary"><i class="fas fa-star"></i> Mark for Review & Next</button>
+                    <button id="clear-btn" class="btn btn-secondary"><i class="fas fa-times"></i> Clear Response</button>
+                    </nav>
+            </main>
+
+            <aside class="palette-area">
+                <div class="user-info-sidebar">
+                     <img src="placeholder-profile.png" alt="Profile" class="profile-icon-sidebar"> <span class="profile-name-sidebar">Rishikesh</span>
+                </div>
+
+                <div class="palette-legend">
+                    <span class="legend-item"><span class="box answered"></span> Answered</span>
+                    <span class="legend-item"><span class="box marked"></span> Marked</span>
+                    <span class="legend-item"><span class="box not-visited"></span> Not Visited</span>
+                    <span class="legend-item"><span class="box marked-answered"></span> Marked & Answered</span>
+                    <span class="legend-item"><span class="box not-answered"></span> Not Answered</span>
+                </div>
+
+                <div class="palette-section-title">SECTION: Test</div>
+
+                <div id="palette-grid" class="palette-grid">
+                    </div>
+
+                <nav class="sidebar-nav bottom-nav">
+                    <button id="qpaper-btn" class="btn btn-secondary"><i class="fas fa-file-alt"></i> Question Paper</button> <button id="instr-btn" class="btn btn-secondary"><i class="fas fa-info-circle"></i> Instructions</button> <button id="next-btn" class="btn btn-primary btn-save-next"><i class="fas fa-save"></i> Save & Next</button>
+                    <button id="submit-btn" class="btn btn-success"><i class="fas fa-check-circle"></i> Submit Test</button>
+                </nav>
+            </aside>
+        </div>
+    </div>
+
+    <script src="test_script.js"></script> </body>
+</html>

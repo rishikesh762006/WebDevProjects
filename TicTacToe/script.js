@@ -42,7 +42,7 @@ async function store(x) {
                         w = true;
                     }
                 }
-                c.innerHTML = `<image src="X.png"></image>`;
+                c.innerHTML = `<image src="X.png" class="flip-back"></image>`;
                 turn = 2;
             }
             else {
